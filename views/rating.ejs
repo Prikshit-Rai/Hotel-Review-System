@@ -1,0 +1,12 @@
+<%- include("partials/header") -%>
+<div class="jumbotron">
+<h2 class="display-4"><b>Success</b></h2>
+<p class="lead">The rating according to your review is :</p>
+<% for(var i=0;i<rating;i++){ %>
+  ⭐
+<% } %>
+<hr class="my-4">
+<!-- <form  action="/failure" method="post">
+<button class="btn btn-md btn-primary" type="submit" name="button">Try Again</button> -->
+</div>
+<%- include("partials/footer") -%>
